@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		477CF88D20B7A4610088EB22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477CF88C20B7A4610088EB22 /* AppDelegate.swift */; };
+		477CF88F20B7A4610088EB22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477CF88E20B7A4610088EB22 /* ViewController.swift */; };
+		477CF89220B7A4610088EB22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 477CF89020B7A4610088EB22 /* Main.storyboard */; };
+		477CF89420B7A4610088EB22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 477CF89320B7A4610088EB22 /* Assets.xcassets */; };
+		477CF89720B7A4610088EB22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 477CF89520B7A4610088EB22 /* LaunchScreen.storyboard */; };
+		477CF89F20B7A5010088EB22 /* RootViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477CF89E20B7A5010088EB22 /* RootViewViewController.swift */; };
+		CF360AD48B49628BFC5831C5 /* Pods_NFCReaderSampleProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C908E24BEDFF7CEA0A4EC40 /* Pods_NFCReaderSampleProject.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C908E24BEDFF7CEA0A4EC40 /* Pods_NFCReaderSampleProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NFCReaderSampleProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		477CF88920B7A4610088EB22 /* NFCReaderSampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFCReaderSampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		477CF88C20B7A4610088EB22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		477CF88E20B7A4610088EB22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		477CF89120B7A4610088EB22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		477CF89320B7A4610088EB22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		477CF89620B7A4610088EB22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		477CF89820B7A4610088EB22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		477CF89E20B7A5010088EB22 /* RootViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewViewController.swift; sourceTree = "<group>"; };
+		47F2E9A020B7BE31004C445B /* NFCReaderSampleProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NFCReaderSampleProject.entitlements; sourceTree = "<group>"; };
+		A1E1E4B072337BF2A59776DF /* Pods-NFCReaderSampleProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFCReaderSampleProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NFCReaderSampleProject/Pods-NFCReaderSampleProject.debug.xcconfig"; sourceTree = "<group>"; };
+		C01EFEF96E6D01A4A502FD27 /* Pods-NFCReaderSampleProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFCReaderSampleProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-NFCReaderSampleProject/Pods-NFCReaderSampleProject.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		477CF88620B7A4610088EB22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF360AD48B49628BFC5831C5 /* Pods_NFCReaderSampleProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		477CF88020B7A4610088EB22 = {
+			isa = PBXGroup;
+			children = (
+				477CF88B20B7A4610088EB22 /* NFCReaderSampleProject */,
+				477CF88A20B7A4610088EB22 /* Products */,
+				E5E2478F1C17669F80134917 /* Pods */,
+				FE5583C40CC314888FE90AA7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		477CF88A20B7A4610088EB22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				477CF88920B7A4610088EB22 /* NFCReaderSampleProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		477CF88B20B7A4610088EB22 /* NFCReaderSampleProject */ = {
+			isa = PBXGroup;
+			children = (
+				47F2E9A020B7BE31004C445B /* NFCReaderSampleProject.entitlements */,
+				477CF88C20B7A4610088EB22 /* AppDelegate.swift */,
+				477CF88E20B7A4610088EB22 /* ViewController.swift */,
+				477CF89020B7A4610088EB22 /* Main.storyboard */,
+				477CF89320B7A4610088EB22 /* Assets.xcassets */,
+				477CF89520B7A4610088EB22 /* LaunchScreen.storyboard */,
+				477CF89820B7A4610088EB22 /* Info.plist */,
+				477CF89E20B7A5010088EB22 /* RootViewViewController.swift */,
+			);
+			path = NFCReaderSampleProject;
+			sourceTree = "<group>";
+		};
+		E5E2478F1C17669F80134917 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1E1E4B072337BF2A59776DF /* Pods-NFCReaderSampleProject.debug.xcconfig */,
+				C01EFEF96E6D01A4A502FD27 /* Pods-NFCReaderSampleProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FE5583C40CC314888FE90AA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C908E24BEDFF7CEA0A4EC40 /* Pods_NFCReaderSampleProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		477CF88820B7A4610088EB22 /* NFCReaderSampleProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 477CF89B20B7A4610088EB22 /* Build configuration list for PBXNativeTarget "NFCReaderSampleProject" */;
+			buildPhases = (
+				85462B1EAECE7437120258B3 /* [CP] Check Pods Manifest.lock */,
+				477CF88520B7A4610088EB22 /* Sources */,
+				477CF88620B7A4610088EB22 /* Frameworks */,
+				477CF88720B7A4610088EB22 /* Resources */,
+				7C588E07A61B0AE36D8676E9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NFCReaderSampleProject;
+			productName = NFCReaderSampleProject;
+			productReference = 477CF88920B7A4610088EB22 /* NFCReaderSampleProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		477CF88120B7A4610088EB22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = HengVisal;
+				TargetAttributes = {
+					477CF88820B7A4610088EB22 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.NearFieldCommunicationTagReading = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 477CF88420B7A4610088EB22 /* Build configuration list for PBXProject "NFCReaderSampleProject" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 477CF88020B7A4610088EB22;
+			productRefGroup = 477CF88A20B7A4610088EB22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				477CF88820B7A4610088EB22 /* NFCReaderSampleProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		477CF88720B7A4610088EB22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				477CF89720B7A4610088EB22 /* LaunchScreen.storyboard in Resources */,
+				477CF89420B7A4610088EB22 /* Assets.xcassets in Resources */,
+				477CF89220B7A4610088EB22 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7C588E07A61B0AE36D8676E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NFCReaderSampleProject/Pods-NFCReaderSampleProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NFCReaderSampleProject/Pods-NFCReaderSampleProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85462B1EAECE7437120258B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NFCReaderSampleProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		477CF88520B7A4610088EB22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				477CF89F20B7A5010088EB22 /* RootViewViewController.swift in Sources */,
+				477CF88F20B7A4610088EB22 /* ViewController.swift in Sources */,
+				477CF88D20B7A4610088EB22 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		477CF89020B7A4610088EB22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				477CF89120B7A4610088EB22 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		477CF89520B7A4610088EB22 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				477CF89620B7A4610088EB22 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		477CF89920B7A4610088EB22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		477CF89A20B7A4610088EB22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		477CF89C20B7A4610088EB22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1E1E4B072337BF2A59776DF /* Pods-NFCReaderSampleProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NFCReaderSampleProject/NFCReaderSampleProject.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 93GSU5NMZY;
+				INFOPLIST_FILE = NFCReaderSampleProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qnet.notify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "abeb42a6-1937-4b23-ad5c-0a4b2d0964f3";
+				PROVISIONING_PROFILE_SPECIFIER = "Qnet Notifications Dev";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		477CF89D20B7A4610088EB22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C01EFEF96E6D01A4A502FD27 /* Pods-NFCReaderSampleProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NFCReaderSampleProject/NFCReaderSampleProject.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 93GSU5NMZY;
+				INFOPLIST_FILE = NFCReaderSampleProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qnet.notify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "abeb42a6-1937-4b23-ad5c-0a4b2d0964f3";
+				PROVISIONING_PROFILE_SPECIFIER = "Qnet Notifications Dev";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		477CF88420B7A4610088EB22 /* Build configuration list for PBXProject "NFCReaderSampleProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				477CF89920B7A4610088EB22 /* Debug */,
+				477CF89A20B7A4610088EB22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		477CF89B20B7A4610088EB22 /* Build configuration list for PBXNativeTarget "NFCReaderSampleProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				477CF89C20B7A4610088EB22 /* Debug */,
+				477CF89D20B7A4610088EB22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 477CF88120B7A4610088EB22 /* Project object */;
+}
